@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+         table{
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 80%;
+          
+          
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:first-child{
+          background-color: #aaa2a2;
+        }
+        tr:hover{
+            background-color: burlywood;
+        }
+
+        </style>
+</head>
+<body>
+    <h2>IPL Cricket Teams</h2>
+    <table>
+      <tr>
+        <th>Teams</th>
+        <th>Captain</th>
+        <th>View</th>
+      </tr>
+      <tr>
+        <td>Chennai Super Kings</td>
+        <td>Ms Dhoni</td>
+        <td><a href="{% url 'about1' %}">view</a></td>
+      </tr>
+      <tr>
+        <td>Kolkata knight Riders</td>
+        <td>Shreyas Iyer</td>
+        <td><a href="{% url 'about2' %}">view</a></td>
+      </tr>
+      <tr>
+        <td>Gujarat Titans</td>
+        <td>Shubman Gill</td>
+        <td><a href="{% url 'about3' %}">view</a></td>
+      </tr>
+      <tr>
+        <td>Mumbai Indians</td>
+        <td>Rohit Sharma</td>
+        <td><a href="{% url 'about4' %}">view</a></td>
+      </tr>
+      <tr>
+        <td>Royal Challengers Bangalore</td>
+        <td>Virat Kohli</td>
+        <td><a href="{% url 'about5' %}">view</a></td>
+      </tr>
+      <tr>
+        <td>Rajasthan Royals</td>
+        <td> Sanju Samson</td>
+        <td><a href="{% url 'about6' %}">view</a></td>
+      </tr>
+      <tr>
+        <td>Punjab Kings</td>
+        <td>  Shikhar Dhawan</td>
+        <td><a href="{% url 'about7' %}">view</a></td>
+      </tr>
+    </table>
+</body>
+</html>
+    
+    
+    
